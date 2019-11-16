@@ -1,22 +1,29 @@
+body {
+    background-color: #222228;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
 .App {
-  text-align: center;
+    text-align: center;
+}
+button {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #eb5424;
+    color: white;
+    border: 1px solid #eb5424;
+    border-radius: 5px;
+    transition: background-color transform 250ms;
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
+button:hover {
+    cursor: pointer;
+    background-color: #df4514;
+    box-shadow: 2px 2px 15px #222228;
+    transform: translateY(-1px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+h1 {
+    margin-bottom: 50px;
 }
