@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mischief Managed - A Harry Potter Themed Auth Demo with Auth0 and React
 
 ## Available Scripts
 
